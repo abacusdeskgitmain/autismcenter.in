@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*@font-face {
+    font-family: 'TrajanProRegular';
+    src: url('../fonts/trajanpro-regular_0.eot');
+    src: url('../fonts/trajanpro-regular_0.eot') format('embedded-opentype'),
+         url('../fonts/trajanpro-regular_0.woff') format('woff'),
+         url('../fonts/trajanpro-regular_0.ttf') format('truetype'),
+         url('../fonts/trajanpro-regular_0.svg#TrajanProRegular') format('svg');
+		 font-weight: normal;
+				font-style: normal;
+}*/
+
+
+
+
+@font-face {
+				font-family: 'TrajanPro-Regular';
+				src: url('../fonts/trajanpro-regular_0.eot');
+				src: url('../fonts/trajanpro-regular_0.eot?#iefix') format('embedded-opentype'),
+						 url('../fonts/trajanpro-regular_0.woff') format('woff'),
+						 url('../fonts/trajanpro-regular_0.ttf') format('truetype'),
+						 url('../fonts/trajanpro-regular_0.svg#trajanpro-regular_0') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+		
+		
+		
+@font-face {
+				font-family: 'BernhardTangoBT-Regular';
+				src: url('../fonts/bnhrdtan_1.eot');
+				src: url('../fonts/bnhrdtan_1.eot?#iefix') format('embedded-opentype'),
+						 url('../fonts/bnhrdtan_1.woff') format('woff'),
+						 url('../fonts/bnhrdtan_1.ttf') format('truetype'),
+						 url('../fonts/bnhrdtan_1.svg#bnhrdtan_1') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}

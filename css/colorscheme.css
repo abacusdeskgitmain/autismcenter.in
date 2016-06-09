@@ -1,0 +1,36 @@
+
+.sf-menu a {
+	color: #a5a5a5;
+}
+.sf-menu > li {
+	background-image:url(../images/nav-divider.png);
+}
+.sf-menu > li > a {
+		background-color:transparent;
+	}
+	.sf-menu > li > a:hover,
+	.sf-menu > li.sfHover > a {
+		color:#343a41;
+	}
+	.sf-menu > li.current_page_item > a {
+		color:#fff;
+	}
+.sf-menu li ul {
+	background-color:#343a41;
+}
+.sf-menu li li a {
+		color:#fff;
+	}
+	.sf-menu li li a:hover,
+	.sf-menu li li.sfHover > a,
+	.sf-menu li li.current_page_item > a {
+		color:#81c5c5;
+	}
+.sf-menu li li li a:hover,
+.sf-menu li li li.sfHover > a,
+.sf-menu li li li.current_page_item > a {
+	color:#81c5c5;
+}
+.sf-sub-indicator {
+	background:		url(../images/nav-arrow.gif) no-repeat -1px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
