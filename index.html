@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Learning Center For Autism</title>
+  <link href="css/autism.css" rel="stylesheet" type="text/css" />
+  <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" media="all" href="css/colorscheme.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <script type='text/javascript' src="js/jquery-1.7.2.min.js"></script>
+  <script type='text/javascript' src="js/superfish.js"></script>
+  <script type="text/javascript">
+  	// initialise plugins
+		jQuery(function(){
+			// main navigation init
+			jQuery('ul.sf-menu').superfish({
+				delay:       1000, 		// one second delay on mouseout 
+				animation:   {opacity:'show',height:'show'}, // fade-in and slide-down animation
+				speed:       'normal',  // faster animation speed 
+				autoArrows:  true,   // generation of arrow mark-up (for submenu) 
+				dropShadows: false   // drop shadows (for submenu)
+			});
+			
+		});
+  </script>
+  
+  
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript">
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+    // use this to pull the images in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+
+    // uncomment the 3 lines below to pull the images in random order
+    
+    // var $sibs  = $active.siblings();
+    // var rndNum = Math.floor(Math.random() * $sibs.length );
+    // var $next  = $( $sibs[ rndNum ] );
+
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval( "slideSwitch()", 6000 );
+});
+
+</script>
+  
+  
+  
+  
+  
+  </head>
+
+  <body>
+<!-- main container start here -->
+<div class="main-container clearfix"> 
+    <!--wrapper start here -->
+    <div class="wrapper"> 
+    <!-- header start here -->
+    <div class="header"> 
+        <!-- header content start here -->
+        <div class="header-content">
+        <div class="logo"><a href="index.html"><img src="images/logo.png" border="0" /></a></div>
+        <div class="email">
+            <p class="pcontact">Phone: +91 99587 21300</p>
+            <p class="pemail">Email : info@autismcenter.in</p>
+          </div>
+        <!-- social icon start -->
+        <div class="social">
+            <ul class="social-networks">
+            <li> <span class="tooltip"> <span class="inner">facebook</span> </span> <a href="#" rel="external"> <img alt="" src="images/facebook.png"> </a> </li>
+            <li> <span class="tooltip"> <span class="inner">twitter</span> </span> <a href="#" rel="external"> <img alt="" src="images/twitter.png"> </a> </li>
+            <li> <span class="tooltip"> <span class="inner">googleplus</span> </span> <a href="#" rel="external"> <img alt="" src="images/googleplus.png"> </a> </li>
+          </ul>
+          </div>
+        <!-- social icon end here --> 
+      </div>
+        <!-- header content end here --> 
+        
+        <!-- navigation start here -->
+        <div class="nav">
+        <ul class="sf-menu sf-js-enabled">
+            <li class="current_page_item"> <a href="index.html">Home</a> </li>
+            
+       		<li> <a class="sf-with-ul" href="#"> About us <span class="sf-sub-indicator"> »</span> </a>
+            <ul class="sub-menu" style="display: none; visibility: hidden;">
+            	<li> <a href="about-us.html">About Us</a> </li>
+                <li> <a href="about-us.html#mision">Mission</a> </li>
+                <li> <a href="about-us.html#vision">Vision</a> </li>
+                <li> <a href="about-us.html#goals">Goals</a> </li>
+                <li> <a href="testimonials.html">Testimonials</a> </li>
+              </ul>
+          </li>
+          
+          
+          
+            <li> <a class="sf-with-ul" href="#"> About Autism <span class="sf-sub-indicator"> »</span> </a>
+            <ul class="sub-menu" style="display: none; visibility: hidden;">
+                <li> <a href="what-is-autism.html">What is Autism?</a> </li>
+                <li> <a href="autism-symptoms.html">Autism Symptoms</a> </li>
+                <li> <a href="autism-and-treatment.html">Autism and Treatment</a> </li>
+              </ul>
+          <li> <a href="services.html">Services</a> </li>
+            <!--<li> <a href="articles.html">Articles</a> </li>-->
+             <li> <a class="sf-with-ul" href="#"> Articles <span class="sf-sub-indicator"> »</span> </a>
+            <ul class="sub-menu" style="display: none; visibility: hidden;">
+              <li> <a href="child-newly-diagnosed-with-autism.html">Child Newly Diagnosed With Autism</a> </li>
+              <li> <a href="food-allergy-and-autism.html">Food Allergy And Autism</a> </li>
+              <li> <a href="what-is-hbot.html">What is HBOT?</a> </li>
+              <li> <a href="organic-food-supplements.html">Organic Food Supplements</a> </li>
+              <li> <a href="the-sensory-diet-treatment-for-sensory-integration-disorder.html">The Sensory  Diet</a> </li>
+            </ul>
+          </li>
+            
+            
+            
+            
+            
+            
+            
+          <li> <a class="sf-with-ul" href="#"> Media <span class="sf-sub-indicator"> »</span> </a>
+            <ul class="sub-menu" style="display: none; visibility: hidden;">
+              <li> <a href="news-events.html">News & Events</a> </li>
+              <li> <a href="photo-gallery.html">Photo Gallery</a> </li>
+              <li> <a href="video-gallery.html">Video Gallery</a> </li>
+            </ul>
+          </li>
+            <li> <a href="enquiry.html">Enquiry</a> </li>
+            <li> <a href="contact-us.html">Contact us</a> </li>
+          </ul>
+      </div>
+        <!-- navigation end here --> 
+        
+      </div>
+    <!-- header end here --> 
+    
+    <!-- slider start here -->
+    <div class="slider">
+    
+    	<div id="slideshow" style="width:940px; height: 323px">
+			<img src="images/slide1.jpg" alt="Slideshow Image 1" class="active" />
+			<img src="images/slide2.jpg" alt="Slideshow Image 2" />
+			<img src="images/slide3.jpg" alt="Slideshow Image 3" />
+			<img src="images/slide4.jpg" alt="Slideshow Image 4" />
+			<img src="images/slide5.jpg" alt="Slideshow Image 5" />
+		</div>
+    
+    </div>
+    <!-- slider end here --> 
+    
+    <!-- tab box start here -->
+
+    <!-- tab box end here --> 
+    
+    <!-- home content box start here -->
+    <div class="home-content clearfix"> 
+        <!-- home content box left -->
+        <div class="home-content-left">
+        <p class="heading">Welcome to our Website!</p>
+        <p><img src="images/child_img1.jpg" border="0" /></p>
+        <p class="text">LEARNING CENTER FOR AUTISM is an organization to meet the tremendous need for comprehensive services for children with autism, intensive instruction using innovative teaching techniques.</p>
+        <p class="text2">LEARNING CENTER FOR AUTISM emphasizes a positive and systematic approach to teaching skills and reducing problematic behaviours. We take a creative and flexible approach, capitalizing on the resources available for each child. While there are certain teaching techniques that we have consistently found more effective, we also recognize that each person providing therapy has their own individual style and unique contribution to make to the therapy process. <span class="readmore"><a href="philosophy-and-curriculum.html">Read More</a></span>
+          <p><a href="#" title="Attend a free seminar"><img src="images/attend_seminar.jpg" border="0" title="Attend a free seminar" alt="Attend a free seminar" /></a></p>
+        </p>
+      </div>
+        
+        <!-- home content box left end --> 
+        
+        <!-- home content box right -->
+        <div class="home-content-right"> 
+        
+        <!-- box one start here -->
+        <div class="rightbox1 clearfix">
+            <div class="right_head">Autism and Treatment</div>
+            <div class="rtext">Autism is a pervasive developmental disability that is usually diagnosed in the first three years of life. This neurological disorder disrupts 
+            typical development and impairs social and communication skills. Persons with autism often have difficulty <a href="autism-and-treatment.html">read more</a></div>
+            <div class="rimg"><img src="images/right_img1.jpg" border="0" /></div>
+          </div>
+        
+        <!-- box one end here --> 
+        
+        <!-- box two start here -->
+        <div class="rightbox1 clearfix">
+            <div class="right_head">Want to donate?</div>
+            <div class="rtext">100% of all contributions made to Learning center for Autism are invested in programs and services that directly impact the students who seek our help. Donations of all types are appreciated.<a href="#">Find out other ways you can help, too!</a></div>
+            <div class="rimg"><img src="images/paypal_icon.jpg" border="0" /></div>
+          </div>
+        <!-- box two end here --> 
+        
+        <!-- box 3 start here -->
+        <div class="rightbox1 clearfix">
+            <div class="right_head">News & Events</div>
+            <!--<p class="link"><a href="news-events.html">Donec tempor libero</a></p>
+            <p class="rtext2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa vel mauris sollicitudin dignissim... </p>
+            <p class="link"><a href="news-events.html">Donec tempor libero</a></p>
+            <p class="rtext2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa vel mauris sollicitudin dignissim... </p>-->
+            
+            
+            <p class="intext" style="margin-top:20px; margin-left:5px; font-size:20px;">Coming Soon...</p>
+            
+            
+          </div>
+        <!-- box 3 end here --> 
+        
+      </div>
+        
+        <!-- home content box right --> 
+        
+      </div>
+    <!-- home content box end here --> 
+    
+    <!-- testimonials start here -->
+    <div class="testimonials clearfix"> 
+        <!-- testimonial 1 start here -->
+        <p><img src="images/testimonials.jpg" border="0" /></p>
+        <p class="testitext">Learning center for Autism</p>
+        <p class="testitext">not only helped my child overcome obstacles never thought possible, they showed us that anything is possible.</p>
+        <p class="testitext2"><span class="span1"><</span>Mr. Srinivasan Kohtari<span class="span2">></span></p>
+        <!-- testimonial 1 end here --> 
+        
+        <!-- testimonial 2 start here -->
+        <p class="testitext">Thank you for all you do for Manav. His great progress and his love of Learning Center</p>
+        <p class="testitext">for Autism is testimony to your talent and dedication.</p>
+        <p class="testitext2"><span class="span1"><</span>Mrs. Anchal Thakur<span class="span2">></span></p>
+        <!-- testimonial 2 end here --> 
+      </div>
+    <!-- testimonials end here --> 
+    
+    <!-- our vision start here -->
+    <div class="vision"> 
+        <!-- our vision box 1 start here -->
+        <div class="visionbox1">
+        <p class="visiontext1">Developing, providing creative <strong>&</strong> innovative educational services for individual and their families affected by <strong>Autism</strong>.</p>
+      </div>
+        <!-- our vision box 1 end here --> 
+        
+        <!-- our vision box 2 start here -->
+        <div class="visionbox2">
+        <p class="visiontext2"><strong><a href="#">Our Vision</a></strong></p>
+      </div>
+        <!-- our vision box 2 end here --> 
+        
+      </div>
+    <!-- our vision end here --> 
+    
+    <!-- footer start here -->
+    <div class="footer">
+        <p class="footertext1">© 2012 <span class="color-2">|</span> <a title="Privacy Policy" href="#">Privacy Policy</a> </p>
+        <p class="footertext">Plot No. 266, Basement, Sector-27,Gurgaon<br />
+          State - Haryana (India)
+          <br />
+        Phone: +91 99587 21300<br />
+        Emails : info@autismcenter.in; admin@autismcenter.in<br />
+        Website : www.autismcenter.in </p>
+      </div>
+    <!-- footer end here --> 
+    
+  </div>
+    <!-- wrapper end here --> 
+  </div>
+<!-- main container end here -->
+</body>
+</html>
